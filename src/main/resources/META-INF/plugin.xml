@@ -1,0 +1,21 @@
+<idea-plugin>
+    <id>com.minimal.themes</id>
+    <name>Minimal Themes</name>
+    <version>1.0.0</version>
+    <vendor email="" url="https://">Junior Humberto Medina Bustamante</vendor>
+    <description>Pack de 4 temas oscuros minimalistas (Noir, Ocean, Aurora, Photo) con esquemas de editor a juego y
+        claves de UI ampliadas.
+    </description>
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="533417c0-ff2d-4d60-9e15-30c73ee485ca" path="/themes/JB-Minimal-Noir.theme.json"/>
+        <themeProvider id="7f567662-428d-45a9-a866-95b152913091" path="/themes/JB-Minimal-Ocean.theme.json"/>
+        <themeProvider id="7b213540-93a6-4264-bde0-3212e917b57c" path="/themes/JB-Minimal-Aurora.theme.json"/>
+        <themeProvider id="86778f8b-60f1-4039-8e07-1c22d36863b7" path="/themes/JB-Minimal-Photo.theme.json"/>
+        <bundledColorScheme path="/color_schemes/JB-Minimal-Noir" id="JB-Minimal-Noir"/>
+        <bundledColorScheme path="/color_schemes/JB-Minimal-Ocean" id="JB-Minimal-Ocean"/>
+        <bundledColorScheme path="/color_schemes/JB-Minimal-Aurora" id="JB-Minimal-Aurora"/>
+        <bundledColorScheme path="/color_schemes/JB-Minimal-Photo" id="JB-Minimal-Photo"/>
+    </extensions>
+</idea-plugin>
